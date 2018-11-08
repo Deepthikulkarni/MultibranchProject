@@ -7,7 +7,7 @@ doGenerateSubmoduleConfigurations: false,
 extensions: [], submoduleCfg: [],
 userRemoteConfigs: [[
 name: 'github',
-url: 'https://github.com/Deepthikulkarni/iOSSample.git'
+url: 'https://github.com/Deepthikulkarni/MultibranchProject.git'
 ]]
 ])
 }
