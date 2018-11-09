@@ -13,7 +13,7 @@ url: 'https://github.com/Deepthikulkarni/MultibranchProject.git'
 }
 
 stage('Build') {
-sh "xcrun xcodebuild  -project Deepthi.xcodeproj -scheme Deepthi -destination 'name=iPhone 7' clean build"
+sh "xcrun xcodebuild  -project Deepthi.xcodeproj -scheme Deepthi -destination 'generic/platform=iOS' clean build"
 }
 
 stage('Archieve') {
